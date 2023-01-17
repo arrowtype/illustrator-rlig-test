@@ -19,6 +19,8 @@ It should ”just work,” as it does in most other apps. Users should not have 
 
 ## Test font
 
-This repo contains a very simple test font. It contains one character, `A`, which has a high crossbar by default, which swaps to a low crossbar at `wght` values at `550` and above. This substitution uses the `rlig` feature – so unfortunately, it doesn’t work in the typical Adobe Illustrator setup.
+This repo contains a very simple test font, found at `fonts/RLIGTestVF.ttf`. This font contains one character, `A`, which has a high crossbar by default, which swaps to a low crossbar at `wght` values at `550` and above. This substitution uses the `rlig` feature – so unfortunately, it doesn’t work in the typical Adobe Illustrator setup.
+
+The expected behavior is easy to verify in [Font Goggles](https://fontgoggles.org) or on [Wakamai Fondue](https://wakamaifondue.com/beta/).
 
 This test font is given an OFL license, in case it might be helpful to Adobe for testing and addressing this issue.
